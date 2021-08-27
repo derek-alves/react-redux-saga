@@ -1,0 +1,46 @@
+.container{
+    height: 90%;
+    max-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30%;
+}
+
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 3px solid rgb(0, 202, 184);
+  outline: 0;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+
+
+}
+.form__label {
+ color: rgb(0, 202, 184);
+ font-weight: bold;
+}
+
+
+.login-button{
+width: 80%;
+background-color: white;
+color: rgb(0, 202, 184);
+font-size: 20px;
+padding: 5px 0;
+border: 3px solid rgb(0, 202, 184); 
+}
